@@ -15,7 +15,7 @@ public class TaxCal {
             return -1;
         }
 
-        float ti = sal - te - 9000000 - nod * 4000000;
+        float ti = sal + te - 9000000 - nod * 4000000;
 
         if (ti <= 0) {
             return 0;
